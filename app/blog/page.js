@@ -5,7 +5,7 @@ import PostList from '../../components/PostList';
 
 export const metadata = {
 	title: 'Blog',
-	description: 'Read travel stories...',
+	description: 'Eğitimde Son Gelişmeleri Okuyun',
 };
 
 export default async function BlogHome({ params }) {
