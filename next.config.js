@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+	output: 'export',
 	reactStrictMode: true,
 	images: {
 		remotePatterns: [
 			{
 				protocol: 'http',
-				hostname: 'bilgievde.local',
+				hostname: 'bilgievdewp.innokar.com.tr',
 				port: '',
 				pathname: '/**',
 			},
